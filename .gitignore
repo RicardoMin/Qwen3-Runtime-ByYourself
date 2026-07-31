@@ -1,0 +1,119 @@
+# =============================================================================
+# CMake / Ninja build output
+# =============================================================================
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+DartConfiguration.tcl
+Testing/
+compile_commands.json
+build.ninja
+.ninja_*
+CMakeUserPresets.json
+
+# =============================================================================
+# Compiled binaries and intermediate files
+# =============================================================================
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+*.pdb
+*.ilk
+*.gch
+
+# CUDA compiler output
+*.ptx
+*.cubin
+*.fatbin
+*.gpu
+*.ii
+
+# =============================================================================
+# Local model files
+#
+# Checkpoints, tokenizers and downloaded metadata are kept outside Git.
+# Download them after cloning by following the README.
+# =============================================================================
+/models/
+
+# Common model-weight formats, in case they are stored elsewhere
+*.safetensors
+*.safetensors.incomplete
+*.gguf
+*.ckpt
+*.onnx
+*.pth
+*.pt
+
+# =============================================================================
+# IDE / editor state
+# =============================================================================
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# =============================================================================
+# Python helper environments and caches
+# =============================================================================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =============================================================================
+# Logs, profiling reports and crash dumps
+# =============================================================================
+*.log
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+gmon.out
+perf.data
+perf.data.*
+core
+core.*
+
+# =============================================================================
+# Download caches and temporary files
+# =============================================================================
+.cache/
+.huggingface/
+*.part
+*.incomplete
+*.tmp
+*.temp
+*.bak
+
+# =============================================================================
+# Operating-system metadata
+# =============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
